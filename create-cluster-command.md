@@ -3,10 +3,10 @@
 ```
 eksctl create cluster \
 —name demo-cluster \
-—version 1.27 \
-—region eu-central-1 \
+—version 1.36 \
+—region eu-north-1 \
 —nodegroup-name demo-nodes \
-—node-type t2.micro \
+—node-type t3.small \
 —nodes 2 \
 —nodes-min 1 \
 —nodes-max 3
